@@ -7,10 +7,13 @@
 
 # testing
 /coverage
-.indea
+.idea
 # next.js
 /.next/
 /out/
+.vscode
+.github
+.husky
 
 # production
 /build
