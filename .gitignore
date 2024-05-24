@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+.indea
 # next.js
 /.next/
 /out/
