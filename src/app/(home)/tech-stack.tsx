@@ -3,19 +3,16 @@
 import { m } from 'framer-motion'
 
 import {
+  Docker,
   JavaScript,
   Kotlin,
   Laravel,
   MySQL,
   NextJs,
   PHP,
-  RabbitMq,
-  ReactJs,
   Redis,
   Spring,
-  TailwindCss,
   TypeScript,
-  VueJs,
 } from '@/components/icons'
 import { Tooltip } from '@/components/ui'
 import cn from '@/utils/cn'
@@ -38,25 +35,11 @@ const stacks: Stack[] = [
     icon: <NextJs className={cn('h-6 w-6')} />,
   },
   {
-    title: 'React.js',
-    colorClass: 'hover:text-[#61DAFB]',
-    icon: <ReactJs className={cn('h-6 w-6')} />,
-  },
-  {
     title: 'Javascript',
     colorClass: 'hover:text-[#F7DF1E]',
     icon: <JavaScript className={cn('h-6 w-6')} />,
   },
-  {
-    title: 'Vue.js',
-    colorClass: 'hover:text-[#4FC08D]',
-    icon: <VueJs className={cn('h-6 w-6')} />,
-  },
-  {
-    title: 'Tailwind CSS',
-    colorClass: 'hover:text-[#06B6D4]',
-    icon: <TailwindCss className={cn('h-6 w-6')} />,
-  },
+
   {
     title: 'Kotlin',
     colorClass: 'hover:text-[#7F52FF]',
@@ -82,15 +65,16 @@ const stacks: Stack[] = [
     colorClass: 'hover:text-[#DC382D]',
     icon: <Redis className={cn('h-6 w-6')} />,
   },
-  {
-    title: 'RabbitMQ',
-    colorClass: 'hover:text-[#FF6600]',
-    icon: <RabbitMq className={cn('h-6 w-6')} />,
-  },
+
   {
     title: 'MySQL',
     colorClass: 'hover:text-[#4479A1]',
     icon: <MySQL className={cn('h-6 w-6')} />,
+  },
+  {
+    title: 'Docker',
+    colorClass: 'hover:text-[#4479A1]',
+    icon: <Docker className={cn('h-6 w-6')} />,
   },
 ]
 

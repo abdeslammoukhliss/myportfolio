@@ -26,14 +26,13 @@ const site: Site = {
   name: "bonabrian's portfolio",
   title: 'Bona Brian Siagian',
   description:
-    'Passionate Full-stack engineer who focused on solving problems with digital products.',
+    'Passionate Backend engineer who focused on solving problems with digital products.',
   author: {
     name: 'Bona Brian Siagian',
     url: 'https://bonabrian.com',
-    email: 'bonabrian.dev@gmail.com',
-    linkedIn: 'https://www.linkedin.com/in/bonabrian',
-    avatar: '/media/bonabrian/bonabrian.jpg',
-    twitter: '@bonabrian_',
+    email: 'abdomokh38@gmail.com',
+    linkedIn: 'https://www.linkedin.com/in/abdeslam-moukhliss-aa277919a/',
+    avatar: '/media/bonabrian/abdeslam.png',
   },
   keywords: [
     'bonabrian',

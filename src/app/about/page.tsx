@@ -43,7 +43,7 @@ const AboutPage = () => {
               width={256}
               height={256}
               placeholder="blur"
-              blurDataURL="/media/bonabrian/bonabrian-small.jpg"
+              blurDataURL="/media/bonabrian/abdeslam.png"
               className={cn('rounded-full object-cover', 'xl:rounded-xl')}
               quality={100}
             />
@@ -68,61 +68,51 @@ const AboutPage = () => {
               Hi there! Thanks for visiting my digital home on the internet.
             </p>
             <p>
-              I'm Bona Brian Siagian, a Full-stack Engineer with a focus on
-              delivery innovative digital solutions that drive business value. I
-              am currently working at{' '}
-              <Link href="https://investree.id">Investree</Link>, a
-              well-regarded company located in{' '}
-              <Link href="https://www.google.com/maps/place/Jakarta,+Daerah+Khusus+Ibukota+Jakarta/@-6.2293866,106.6890864,11z">
-                Jakarta, Indonesia
-              </Link>
-              , where I have the opportunity to put my skills to work on a daily
-              basis.
+              I'm Abdeslam Moukhliss, a cybersecurity enthusiast and Big Data
+              student at{' '}
+              <Link href="https://www.enset-media.ac.ma/">ENSET</Link> , with a
+              passion for enhancing my skills and knowledge in the field.
+              Currently, I'm immersed in my studies, driven by t he opportunity
+              to contribute meaningfully to data protection efforts in the
+              future.
             </p>
             <p>
-              I have a wealth of experience in crafting scalable software
-              systems that meet both technical and business requirements,
-              utilizing a range of programming languages such as{' '}
-              <Link href="https://kotlinlang.org/">Kotlin</Link>,{' '}
-              <Link href="https://www.php.net/">PHP</Link>,{' '}
-              <Link href="https://www.javascript.com/">JavaScript</Link>, and{' '}
-              <Link href="https://www.typescriptlang.org/">TypeScript</Link>.
-              Leveraging my proficiency in backend frameworks like{' '}
-              <Link href="https://spring.io/">Spring</Link> and{' '}
-              <Link href="https://laravel.com/">Laravel</Link>, coupled with
-              expertise in frontend frameworks such as{' '}
-              <Link href="https://reactjs.org/">React</Link> and{' '}
-              <Link href="https://vuejs.org/">Vue</Link>, allows me to deliver
-              efficient and effective software solutions that meet the unique
-              needs of organizations.
+              With a solid background in development, I've honed my expertise in
+              crafting scalable software solutions that meet both technical
+              requirements and business objectives. My proficiency spans across
+              various programming languages, including , and{' '}
+              <Link href="https://www.java.com/">Java</Link>,
+              <Link href="https://kotlinlang.org/">Kotlin</Link>, enabling me to
+              develop efficient and effective software applications.Leveraging
+              my proficiency in backend frameworks like{' '}
+              <Link href="https://spring.io/">Spring</Link> with{' '}
+              <Link href="https://angular.com/">Angular</Link> and{' '}
+              <Link href="https://laravel.com/">Laravel</Link>.
             </p>
             <p>
-              In my role as a Full-Stack Engineer, I take a charge of designing,
-              developing, and maintaining software that meets both technical
-              specifications and business requirements. I understand the
-              importance of delivering high-quality products that not only meet
-              technical requirements, but also provide tangible business value.
-              To achieve this, I work closely with organizations to understand
-              their unique needs and requirements, and I utilize my technical
-              expertise to deliver customized solutions that drive business
-              outcomes.
+              One of my notable projects involved the development of an Android
+              application for delivery tracking, where I implemented real-time
+              tracking of delivery driver and client locations using Flutter
+              technology and the Laravel framework. This experience has further
+              fueled my passion for exploring new technologies and pushing the
+              boundaries of what's possible in software development.
             </p>
             <p>
-              I consider myself a curious and inquisitive person, always eager
-              to learn and improve my skills. In my free time, I enjoy working
-              on personal side projects, as it provides me with an opportunity
-              to explore new technologies and further my knowledge and
-              expertise. I am also a continuous learner, and I actively seek out
-              new learning opportunities in order to stay up-to-date with the
-              latest industry advancements.
+              In addition to my studies in Big Data and Cloud Computing, I am
+              deeply passionate about cybersecurity. Exploring the fascinating
+              realm of cybersecurity alongside my academic pursuits has been an
+              enriching experience. I'm captivated by the intricacies of
+              protecting digital assets and mitigating online threats. Whether
+              it's learning about encryption techniques, conducting penetration
+              testing, or understanding the latest cybersecurity trends, I find
+              myself drawn to the ever-evolving field of cybersecurity
             </p>
             <p>
-              Besides hacking, I also have a strong appreciation for video games
-              and music. I find that these activities provide an important
-              balance to my professional life, allowing me to relax and recharge
-              after a long day at work. I believe that maintaining a healthy
-              work-life balance is is the key to keeping both my code and my
-              spirits bug-free! 🎮🎶
+              In addition to my technical skills, I'm a continuous learner,
+              always eager to explore new technologies and stay up-to-date with
+              industry advancements. Outside of my studies and work, I enjoy
+              participating in sports activities, particularly football, and
+              organizing tournaments to promote teamwork and camaraderie.! 🎮🎶
             </p>
             <p>
               If you're interested in learning more about my professional
@@ -135,7 +125,7 @@ const AboutPage = () => {
             </Link>
 
             <h2 className={cn('font-cal text-2xl', 'lg:text-3xl')}>
-              Tech Stack
+              Abdeslam MOUKHLISS
             </h2>
             <TechStack />
 
