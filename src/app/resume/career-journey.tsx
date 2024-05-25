@@ -22,6 +22,13 @@ const CareerJourney = () => {
       <div className={cn('mb-12', 'md:mb-16')}>
         <Link href="/resume/download-cover" target="_blank">
           <Button variant="shadow" className={cn('gap-x-1')}>
+            <Document /> Download the 2 essays
+          </Button>
+        </Link>
+      </div>
+      <div className={cn('mb-12', 'md:mb-16')}>
+        <Link href="/resume/download-essays" target="_blank">
+          <Button variant="shadow" className={cn('gap-x-1')}>
             <Document /> Download Cover Letter
           </Button>
         </Link>
