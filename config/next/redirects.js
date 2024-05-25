@@ -5,4 +5,5 @@ const redirect = (source, destination, permanent = true) => {
 module.exports = [
   redirect('/feed', '/feed.xml'),
   redirect('/resume/download', '/share/resume.pdf'),
+  redirect('/resume/download-cover', '/share/coverLetter.pdf'),
 ]

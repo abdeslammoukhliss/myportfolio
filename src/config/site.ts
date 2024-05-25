@@ -18,25 +18,25 @@ interface Site {
 
 export const BASE_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://bonabrian.com'
+    ? 'https://abdeslam-moukhliss.vercel.app/'
     : 'http://localhost:3000'
 
 const site: Site = {
   url: BASE_URL,
-  name: "bonabrian's portfolio",
-  title: 'Bona Brian Siagian',
+  name: 'Abdeslam Moukhliss portfolio',
+  title: 'Abdeslam Moukhliss',
   description:
     'Passionate Backend engineer who focused on solving problems with digital products.',
   author: {
-    name: 'Bona Brian Siagian',
-    url: 'https://bonabrian.com',
+    name: 'Abdesalm Moukhliss',
+    url: 'https://abdeslam-moukhliss.vercel.app/',
     email: 'abdomokh38@gmail.com',
     linkedIn: 'https://www.linkedin.com/in/abdeslam-moukhliss-aa277919a/',
     avatar: '/media/bonabrian/abdeslam.png',
   },
   keywords: [
-    'bonabrian',
-    'Bona Brian Siagian',
+    'abdeslam',
+    'abdeslam moukhliss',
     'developer',
     'portfolio',
     'developer portfolio website',

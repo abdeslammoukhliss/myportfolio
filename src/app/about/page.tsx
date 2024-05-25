@@ -135,7 +135,7 @@ const AboutPage = () => {
             <p>
               Questions or collaborations? Reach out to me at{' '}
               <Link
-                href={`mailto:${site.author.email}?subject=Hi Bona!`}
+                href={`mailto:${site.author.email}?subject=Hi abdeslam!`}
                 className={cn('underline')}
               >
                 {site.author.email}

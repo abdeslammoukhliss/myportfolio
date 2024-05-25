@@ -19,6 +19,13 @@ const CareerJourney = () => {
           </Button>
         </Link>
       </div>
+      <div className={cn('mb-12', 'md:mb-16')}>
+        <Link href="/resume/download-cover" target="_blank">
+          <Button variant="shadow" className={cn('gap-x-1')}>
+            <Document /> Download Cover Letter
+          </Button>
+        </Link>
+      </div>
       <div className={cn('prose max-w-none px-4', 'dark:prose-dark')}>
         <ol className={cn('list-none space-y-4 border-l border-border pl-10')}>
           {EXPERIENCES.map(

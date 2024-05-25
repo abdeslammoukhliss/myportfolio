@@ -15,7 +15,7 @@ const getPosts = () =>
 export const metadata: Metadata = seo({
   title: 'Blog',
   description:
-    'Blog posts by Bona Brian Siagian. Here I share some thoughts, stories, information, and more about software development.',
+    'Blog posts by BAbdeslam Moukhliss. Here I share some thoughts, stories, information, and more about software development.',
   keywords: [
     'blog',
     'story',

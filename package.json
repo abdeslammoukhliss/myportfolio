@@ -1,8 +1,8 @@
 {
-  "name": "bonabrian.com",
+  "name": "abdeslam-moukhliss.vercel.app",
   "version": "3.0.0",
-  "description": "Bona Brian Siagian's portfolio website.",
-  "author": "Bona Brian Siagian",
+  "description": "Abdeslam Moukhliss's portfolio website.",
+  "author": "Abdeslam Moukhliss",
   "license": "MIT",
   "homepage": "https://github.com/bonabrian/nextjs-app-starter",
   "overrides": {
@@ -16,7 +16,7 @@
     "start": "next start",
     "export": "next build && next export",
     "build-stats": "cross-env ANALYZE=true next build",
-    "predev": "yarn clean && prisma generate && contentlayer build --clearCache",
+    "predev": "yarn clean && prisma generate &&  contentlayer build --clearCache",
     "prebuild": "yarn predev",
     "clean": "rimraf .next && rimraf dist && rimraf out && rimraf .contentlayer",
     "lint": "next lint",
